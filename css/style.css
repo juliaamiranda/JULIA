@@ -8,9 +8,14 @@ body{
      grid-template-columns: 100vw;   
      margin: 0;
 }
+header{
+    background-image: url("../images/turma.gif");
+    grid-area: banner;
+    height: 150px;
+}
 nav{
     align-items: center;
-    background-color: rgb(173, 114, 228);
+    background-color: rgb(245, 140, 222);
     display: flex;
     grid-area: nav;
     height: 45px;
