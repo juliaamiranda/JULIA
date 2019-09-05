@@ -13,7 +13,12 @@ header{
     grid-area: banner;
     height: 150px;
     background-position: center;
-}
+    }
+    main{
+        grid-area: main;
+        background-color: white
+
+    }
 nav{
     align-items: center;
     background-color: rgb(150, 240, 225);
@@ -38,3 +43,10 @@ nav div span{
 nav img{
     width: 30px;
 }
+section{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    grid-area: section;
+}
+section
