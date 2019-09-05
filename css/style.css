@@ -12,10 +12,11 @@ header{
     background-image: url("../images/turma.gif");
     grid-area: banner;
     height: 150px;
+    background-position: center;
 }
 nav{
     align-items: center;
-    background-color: rgb(245, 140, 222);
+    background-color: rgb(150, 240, 225);
     display: flex;
     grid-area: nav;
     height: 45px;
