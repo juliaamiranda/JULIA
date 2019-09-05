@@ -49,4 +49,22 @@ section{
     flex-direction: column;
     grid-area: section;
 }
-section
+section .SiriCascudo{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 10px;
+    justify-content: center
+    
+}
+section .Siricascudo div img{
+    width: 100px;
+}
+@media(min-widht:500px){
+}
+    section .SiriCascudo{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100vw;
+    }
